@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<!--
+    Strata by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Aditi's Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+
+
+            
+        /* Style for the clickable text at the top right */
+        .top-right-text {
+            position: relative; /* Fixed position relative to the viewport */
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the right */
+            color: white; /* Text color */
+            font-size: 16px; /* Font size */
+            text-decoration: none !important; /* Remove underline */
+            cursor: pointer; /* Change cursor to pointer */
+            font-weight: none; /* Bold text */
+            z-index: 9999; /* Ensure it stays on top of other elements */
+            transition: color 0.3s ease; /* Smooth hover transition */
+        }
+
+
+        
+        /* Change color on hover */
+        .top-right-text:hover {
+            color: green; /* Lighter blue on hover */
+            text-decoration: none !important;
+        }
+
+
+
+        /* CSS Styles */
+        #header {
+            text-align: center; /* Center-align the header content */
+            padding: 20px; /* Add some padding */
+        }
+
+        .avatar img {
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Make sure this matches the width */
+            border-radius: 50%; /* This makes the image circular */
+            object-fit: cover; /* Ensures the image covers the area without stretching */
+        }
+
+        .intro-header {
+            margin-top: 20px; /* Add some margin above the text */
+            font-size: 1.5em; /* Increase font size for better readability */
+        }
+
+        
+    </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="https://www.linkedin.com/in/aditi-gupta-1288ag" target="_blank" class="image avatar">
+                    <img src="images/Aditi_Gupta.jpg" alt="Aditi Gupta" />
+                </a>
+                <h1 class="intro-header">
+                    <strong>Hi! I am 
+                <a href="https://www.linkedin.com/in/aditi-gupta-1288ag" target="_blank" class="name-hover" style="text-decoration: none !important;">Aditi Gupta</a>
+            </strong>, a passionate Data Analyst with expertise in workflow automation and data-driven insights.
+                </h1>
+            </div>
+
+            <!-- Text at the top right -->
+            <a href="https://github.com/adi-Gup/Certifications" target = "_blank" class="top-right-text"  style="text-decoration: none !important;">Certifications</a> <!-- Example button linking to Certifications -->
+        
+        </header>
+
+        <style>
+            .name-hover {
+                color: inherit; /* Initial text color */
+                text-decoration: none !important; /* Remove underline */
+                transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+            }
+
+            .name-hover:hover {
+                transform: scale(1.1); /* Slightly enlarge the text on hover */
+                color: #005599; /* Change text color on hover */
+            }
+            /* Add extra specificity to target any potential parent styles */
+            h1 a.name-hover, 
+            h1 a.name-hover:link, 
+            h1 a.name-hover:visited, 
+            h1 a.name-hover:hover, 
+            h1 a.name-hover:active {
+                text-decoration: none !important;
+                border: none !important;
+                background: none !important;
+            }
+        </style>
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- One -->
+                    <section id="one">
+                    <header class="major">
+                    <h2 style="color: #003366; font-weight: bold;">Empowering Decisions with Data</h2>
+                    </header>
+                    <p style="color: black;">As a data analyst, I specialize in transforming data into actionable insights. Explore my projects in machine learning, SQL analysis, and data automation that drive real-world results.</p>
+                    <ul class="actions">
+                            <li><a href="https://drive.google.com/file/d/1uj9lkEdsaqFydp7e-0Nx2E-VKQjKH2M5/view?usp=sharing" target="_blank" class="button"  
+                            style="background-color: #003366; color: white !important;border: none;" >Check Out my Resume</a></li>
+                        </ul>
+                    </section>
+
+                    <style>.button:hover {
+                    transform: scale(1.1); /* Slightly enlarge the button on hover */
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a shadow to create a "pop" effect */
+                    background-color: #005599 !important; /* Optional: Change background color on hover */
+
+
+                } </style>
+
+                    
+
+                <!-- Two -->
+                    <section id="two">
+                        <h2 style="color: black;">Projects</h2>
+                        <div class="row">
+
+                            <article class="col-6 col-12-xsmall work-item">
+                            <a href="https://huggingface.co/spaces/adi-Gup/recommender_system" target="_blank" >
+                                <img src="images/thumbs/p1.jpg" alt="Movie Recommender System" class="image fit thumb" />
+                            </a>
+                            <h3><a href="https://huggingface.co/spaces/adi-Gup/recommender_system" target="_blank" class="no-underline" style="text-decoration: none !important;">Movie Recommender System</a></h3>
+                            <p>A project that recommends movies based on user preferences using collaborative filtering.</p>
+                            </article>
+
+                            <article class="col-6 col-12-xsmall work-item">
+                            <a href="https://smsspamclassifier-os6l5ndrgiratuz7wkcnh8.streamlit.app/" target="_blank" >
+                                <img src="images/thumbs/p2.jpg" alt="SMS Spam Classifier" class="image fit thumb" />
+                            </a>
+                            <h3><a href="https://smsspamclassifier-os6l5ndrgiratuz7wkcnh8.streamlit.app/" target="_blank" class="no-underline" style="text-decoration: none !important;">SMS Spam Classifier</a></h3>
+                            <p>A project that predicts an SMS as spam or not spam.</p>
+                            </article>
+
+                            <article class="col-6 col-12-xsmall work-item">
+                            <a href="https://merhjnobqgdqhmw9m3efs7.streamlit.app/?embed_options=light_theme" target="_blank" ><img src="images/thumbs/p3.jpg" alt="Sales Analysis" class="image fit thumb" /></a>
+                            <h3><a href="https://merhjnobqgdqhmw9m3efs7.streamlit.app/?embed_options=light_theme" target="_blank" class="no-underline" style="text-decoration: none !important;">Sales Analysis Using Python and Streamlit</a></h3>
+                            <p>The multipage web app shows a detailed sales analysis.</p>
+                            </article>
+
+                            <article class="col-6 col-12-xsmall work-item">
+                            <a href="https://public.tableau.com/views/Covid19Project_16913279305070/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank"><img src="images/thumbs/p4.jpg" alt="Covid-19 Vaccination Tracker Dashboard" class="image fit thumb"/></a>
+                            <h3><a href="https://public.tableau.com/views/Covid19Project_16913279305070/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" class="no-underline" style="text-decoration: none !important;">Vaccination Tracker Dashboard </a></h3>
+                            <p>This dashboard created on Tableau shows a detailed overview of the Covid-19 Vaccinations all over the world.</p>
+                            </article>
+
+                            <article class="col-6 col-12-xsmall work-item">
+                                <a href="https://github.com/adi-Gup/Music_Store_Analysis_SQL/blob/main/music_store_analysis_sql.sql" target="_blank"><img src="images/thumbs/p5.jpg" alt="Music Store Analysis" class="image fit thumb"/></a>
+                                <h3><a href="https://github.com/adi-Gup/Music_Store_Analysis_SQL/blob/main/music_store_analysis_sql.sql" target="_blank" class="no-underline" style="text-decoration: none !important;">Music Store Aanalysis Using SQL</a></h3>
+                                <p>This project is on a detailed music store analysis using SQL.</p>
+                            </article>
+                            <article class="col-6 col-12-xsmall work-item">
+                                <a href="#" target="_blank"><img src="images/thumbs/p6.png" alt="Real Estate Recommender System" class="image fit thumb"/></a>
+                                <h3><a href="#" target="_blank" class="no-underline" style="text-decoration: none !important;">Real Estate Recommender Web App </a>(ONGOING PROJECT)</h3>
+                                <p>This web app recommends customers flats/properties and predicts price of the properties based on the given inputs by the customer.</p>
+                            </article>
+                        </div>
+                        <ul class="actions">
+                            <li><a href="#" class="button">Full Portfolio</a></li>
+                        </ul>
+                    </section>
+
+                    <style>
+
+                        /* Add hover effect to thumbnails */
+                        .thumb {
+                            transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        }
+
+                        .thumb:hover {
+                            transform: scale(1.05); /* Slightly enlarge the thumbnail on hover */
+                            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for a "pop" effect */
+                        }
+
+                        /* Remove underline from all link states */
+                        .no-underline {
+                            text-decoration: none !important; /* No underline */
+                            color: inherit; /* Ensure it inherits the color */
+                        }
+
+                        /* More specificity to ensure it works */
+                        #two h3 a {
+                            text-decoration: none !important;
+                            border: none !important;
+                            color: inherit !important;
+                            background: none !important;
+                        }
+
+                        /* Covering hover, visited, and active states */
+                        #two h3 a:link,
+                        #two h3 a:visited,
+                        #two h3 a:hover,
+                        #two h3 a:active {
+                            text-decoration: none !important;
+                            border: none !important;
+                            background: none !important;
+                            color: black !important;
+                        }
+
+                        </style>
+
+                <!-- Three -->
+                <section id="three">
+                        <h2 style="color: black;">Blogs</h2>
+                        <div class="row">
+                        <article class="col-6 col-12-xsmall work-item">
+                            <a href="https://medium.com/@aditi.g2.ag/exploratory-data-analysis-eda-using-python-smartphone-analysis-1c0cfd0f98d1" target="_blank" >
+                                <img src="images/thumbs/b1.png" alt="Exploratory Data Analysis" class="image fit thumb" />
+                            </a>
+                            <h3><a href="https://medium.com/@aditi.g2.ag/exploratory-data-analysis-eda-using-python-smartphone-analysis-1c0cfd0f98d1" target="_blank" 
+                                style= "text-decoration: none;">Exploratory Data Analysis</a></h3>
+                            <p>This blog explains the fundamental of EDA using a dataset.</p>
+                            </article>
+
+                            <style>/* More specificity to ensure it works */
+                        #three h3 a {
+                            text-decoration: none !important;
+                            border: none !important;
+                            color: inherit !important;
+                            background: none !important;
+                        }
+
+                        /* Covering hover, visited, and active states */
+                        #three h3 a:link,
+                        #three h3 a:visited,
+                        #three h3 a:hover,
+                        #three h3 a:active {
+                            text-decoration: none !important;
+                            border: none !important;
+                            background: none !important;
+                            color: black !important;
+                        }</style>
+                    
+                
+
+            </div>
+
+        <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    <ul class="icons">
+                        <li><a href="https://www.linkedin.com/in/aditi-gupta-1288ag" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="https://github.com/adi-Gup" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://medium.com/@aditi.g2.ag" target="_blank" class="icon brands fa-medium">
+                            <span class="label">Medium</span></a></li>
+                        <li><a href="mailto:aditi.g2.ag@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    
+                </div>
+            </footer>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.poptrox.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+          
+
+    </body>
+</html>
